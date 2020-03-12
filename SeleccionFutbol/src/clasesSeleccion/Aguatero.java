@@ -14,10 +14,7 @@ public class Aguatero extends SeleccionFutbol{
 	public Aguatero(int id,String nombres, String apellidos, int edad, 
 			int numBtIni, int numBtGast, int numPerCancha, int numPerHi) {
 		
-		this.setId(id);
-		this.setNombres(nombres);
-		this.setApellidos(apellidos);
-		this.setEdad(edad);
+		super(id, nombres, apellidos, edad);
 		this.NumeroBotellasInicial = numBtIni;
 		this.NumeroBotellasGastadas = numBtGast;
 		this.NumeroPersonasCancha = numPerCancha;
@@ -36,20 +33,6 @@ public class Aguatero extends SeleccionFutbol{
 		
 		System.out.println("El señor " + this.getNombres() + " tenia " +  this.NumeroBotellasInicial + " Botellas con agua y gasto "+ 
 					this.NumeroBotellasGastadas + " hidratando a " + this.NumeroPersonasCancha + " de " + this.NumeroPersonasHidratadas + ".");
-	}
-	
-	public static void IterarListaAguateros(ArrayList<Aguatero> lstAguateros) {
-		
-		for (Aguatero aguatero : lstAguateros) {
-			System.out.println("==== AGUATERO ====");
-			aguatero.Viajar();
-			aguatero.Concentrarse();
-			aguatero.PartidoFutbol();
-			aguatero.Entrenamiento();
-			aguatero.ResultadoDeHidratacion();
-			System.out.println("=================");
-		}
-		
 	}
 	
 	

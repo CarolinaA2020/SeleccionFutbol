@@ -1,8 +1,4 @@
-S~Juan Andres~Castillo Rodriguez~22
 E~Pedro~Gomez~30~2
 S~Brayan steven~Castiblanco Cabanzo~25
-F~James~Rodriguez~31~Delantero~42
-F~Lionel~Messi~29~Delantero~87
-F~Dimitar~Berbatov~40~Arquero~1
 F~Cristiano~Ronaldo~31~Delantero~85
-AG~Miguel Angel~Castiblanco Cabanzo~25~30~28~29~20
+AG~Miguel Angel~Castiblanco Cabanzo~26~30~28~29~20
