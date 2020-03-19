@@ -7,10 +7,7 @@ public class Entrenador extends SeleccionFutbol{
 	public Entrenador() {}
 	
 	public Entrenador(int id,String nombres, String apellidos, int edad, int idFede) {
-		this.setId(id);
-		this.setNombres(nombres);
-		this.setApellidos(apellidos);
-		this.setEdad(edad);
+		super(id, nombres, apellidos, edad);
 		this.IdFederacion = idFede;
 	}
 	

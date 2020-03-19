@@ -1,4 +1,4 @@
-E~Miguel Angel~Castiblanco Cabanzo~31~1
-S~Juan Andres~Castillo Rodriguez~22
 E~Pedro~Gomez~30~2
 S~Brayan steven~Castiblanco Cabanzo~25
+F~Cristiano~Ronaldo~31~Delantero~85
+AG~Miguel Angel~Castiblanco Cabanzo~26~30~28~29~20
